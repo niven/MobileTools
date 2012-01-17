@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Logging happens here</string>
+    <string name="app_name">Dashboard of various utils and tests</string>
+    <string name="select_contact">Select a Contact</string>
+    <string name="dump_sms">Dump SMS to SD</string>
+    <string name="network_info">Show network info</string>
+</resources>

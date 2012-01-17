@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+	<TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="@string/hello"
+    android:id="@+id/logdump"
+    android:maxLines="8"
+    android:scrollbars="vertical"
+    />
+    <Button
+    android:id="@+id/select_contact_button"
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="@string/select_contact"
+    android:onClick="selectContact"
+	/>    
+	    <Button
+    android:id="@+id/dump_sms_data"
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="@string/dump_sms"
+    android:onClick="dumpSMS"
+	/>  	   
+	 <Button
+    android:id="@+id/network_info"
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="@string/network_info"
+    android:onClick="showNetworkInfo"
+	/>    
+	
+	<TextView
+	android:id="@+id/data"
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+/>	
+
+
+</LinearLayout>
